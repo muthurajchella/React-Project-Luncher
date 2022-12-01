@@ -58,7 +58,6 @@ const Home = () => {
                                         <CardMedia
                                             component="img"
                                             height="194"
-                                            image=""
                                             alt="Paella dish"
                                         />
                                         <CardContent>
@@ -114,24 +113,16 @@ const Home = () => {
                                             </CardContent>
                                         </Collapse>
                                         </Card>
-                                </div>
-                                
-                                   
-                                    
-                                    
-                                
+                                </div>                  
                            }) 
                         }
                     </div>
                     ):(
                         <h3>Loading</h3>
                     )
-            }
-               
-
-        
+            } 
         </div>
-
+                <img src={luncher.links.mission_name}></img>
     </div>
   )
 }
